@@ -36,12 +36,7 @@ const ConfirmOrder = ({ history }) => {
     history.push("/process/payment");
   };
   const proceedToPaymentt = () => {
-    const data = {
-      subtotal,
-      shippingCharges,
-      tax,
-      totalPrice,
-    };
+    
 
 
 

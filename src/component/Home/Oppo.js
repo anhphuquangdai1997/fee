@@ -15,7 +15,7 @@ function Oppo() {
         slidesToScroll: 1
     };
 
-    const [settings, setSettings] = useState(config);
+    const [settings] = useState(config);
 
     const products = [
         {

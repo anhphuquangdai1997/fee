@@ -61,5 +61,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://cors-anywhere.herokuapp.com/https://ecommerce-q3sc.onrender.com/"
+  "proxy": "https://ecommerce-q3sc.onrender.com/"
 }

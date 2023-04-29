@@ -46,7 +46,7 @@ export const login = (email, password) => async (dispatch) => {
     const config = { headers: { "Content-Type": "application/json" } };
 
     const { data } = await axios.post(
-      `/api/v1/login`,
+      `https://ecommerce-q3sc.onrender.com/api/v1/login`,
       { email, password },
       config
     );

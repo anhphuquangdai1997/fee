@@ -57,7 +57,7 @@ const Payment = ({ history }) => {
         },
       };
       const { data } = await axios.post(
-        "/api/v1/payment/process",
+        "https://ecommerce-q3sc.onrender.com/api/v1/payment/process",
         paymentData,
         config
       );
